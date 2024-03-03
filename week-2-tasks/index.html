@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Style for the gallery grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Welcome to our Website!</h1>
+    <p>Explore our collection of images related to technology, nature, and food.</p>
+    <a href="https://en.wikipedia.org/wiki/Technology" target="_blank">
+        <img src="technology_image.jpg" alt="Technology Image">
+    </a>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <h2>Nature Gallery</h2>
+    <div class="gallery">
+        <a href="https://en.wikipedia.org/wiki/Nature" target="_blank">
+            <img src="nature_image1.jpg" alt="Nature Image 1">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Nature" target="_blank">
+            <img src="nature_image2.jpg" alt="Nature Image 2">
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Nature" target="_blank">
+            <img src="nature_image3.jpg" alt="Nature Image 3">
+        </a>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Food" target="_blank">
+                <img src="food_item1.jpg" alt="Food Item 1">
+                Food Item 1
+            </a>
+        </li>
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Food" target="_blank">
+                <img src="food_item2.jpg" alt="Food Item 2">
+                Food Item 2
+            </a>
+        </li>
+        <li>
+            <a href="https://en.wikipedia.org/wiki/Food" target="_blank">
+                <img src="food_item3.jpg" alt="Food Item 3">
+                Food Item 3
+            </a>
+        </li>
+    </ul>
+</section>
+
+</body>
+</html>
