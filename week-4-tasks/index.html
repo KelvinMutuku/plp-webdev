@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kelvin Mutuku - Frontend Web Developer </title>
+    <link rel="icon" type="image/x-icon" href="./Images/kelvin.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Kelvin Mutuku</h2>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#services">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Kelvin Mutuku</h1>
+                    <p class="t-white poppins"> A highly Driven and passionate senior year student at Kirinyaga university majoring in <b>mathematics and computer science</b>.
+                    Seeking a summer internship or entry-level position in the software engineering industry where I can use my skills and knowledge to make a meaningful contribution.
+                        Relevant coursework includes web development, python programming, and java programming. I have also gained valuable experience through my involvement in the kirinyaga university computer science club .
+                        I am a highly motivated and quick learner with a strong work ethic. I am also a team player and I am always eager to take on new challenges. I am confident that I have the skills and abilities to be a valuable asset to your team.</p>
+                    <a class="btn live poppins" id="hireme"
+                        href="https://www.linkedin.com/in/kelvin-mutuku-7211301b5">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50">
+        <div class=" skills-left flex s-center items-center">
+            <img src="/Images/skills.png" alt="">
+        </div>
+
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">Python</span><span
+                        class="bar-content right-skills t-white">75%</span></div>
+                <div class="bootstrap bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">50%</span></div>
+                <div class="reactjs bar p-relative"><span class="bar-content left t-white">Dart</span><span
+                        class="bar-content right-skills t-white">30%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h1 class=" t-center my-2 t-white f-2">Services</h1>
+        <div class="services-container flex s-center">
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//developer.png" alt="">
+                <h1 class="t-white poppins">Web Development</h1>
+                <p class="t-white poppins">Web Development is envolving everywhere. Every startup and every bussines
+                    have their own websites. As my passion I will help you to build your clean and fast website for your
+                    startup or your bussines.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//social-media-management.png" alt="">
+                <h1 class="t-white poppins">Social Media Management</h1>
+                <p class="t-white poppins">Social Media is the power of future. So I'll help in developing brand
+                    awareness thow managing your social media handles and will to increase customer loyalty.</p>
+            </div>
+            <div class="test-item flex f-col items-center">
+                <img src="./Images//startup.png" alt="">
+                <h1 class="t-white poppins">Growth Strategies</h1>
+                <p class="t-white poppins">As a web developer also I will help your brand to grow up . I will provide
+                    the growth strategies for your brand. And also help in searching techniques for your brand.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://www.linkedin.com/in/kelvin-mutuku-7211301b5" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/KelvinMutuku" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </a>
+        </ul>
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Kelvin Mutuku</span></p>
+
+    </footer>
+</body>
+</html>
